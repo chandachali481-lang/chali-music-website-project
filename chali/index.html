@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Music Website</title>
+  <style>
+    body { font-family: Arial; background:#f4f4f4; margin:0; }
+    header, footer { background:#111; color:white; padding:15px; }
+    nav a { margin:10px; color:white; text-decoration:none; }
+    nav a:hover { text-decoration:underline; }
+    section { background:white; padding:20px; margin:15px; border-radius:8px; }
+    img { width:180px; border-radius:10px; }
+    button { padding:8px 12px; }
+    input, textarea, select { padding:6px; width:60%; }
+  </style>
+</head>
+
+<body>
+
+<header id="top">
+  <h1 class="title">🎵 Chanda Music Hub</h1>
+  <p>Your home of quality sound</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#artists">Artists</a>
+    <a href="#genres">Genres</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <p>This is a <strong>music website</strong> where you explore songs, artists and albums.</p>
+  <img src="https://via.placeholder.com/180" alt="Music Image">
+  <br><br>
+  <button type="button">Play Music</button>
+</section>
+
+<section id="artists">
+  <h2>Top Artists</h2>
+  <ul>
+    <li>Yo Maps</li>
+    <li>Chef 187</li>
+    <li>Macky 2</li>
+    <li>Pompi</li>
+  </ul>
+</section>
+
+<section id="genres">
+  <h2>Music Genres</h2>
+  <p>Choose your favorite genre:</p>
+  <select name="genre">
+    <option>Hip Hop</option>
+    <option>Afro Beat</option>
+    <option>Gospel</option>
+    <option>R&B</option>
+  </select>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" placeholder="Enter name" required>
+
+    <br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" placeholder="Enter email">
+
+    <br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea rows="4" cols="40" placeholder="Write your message"></textarea>
+
+    <br><br>
+
+    <input type="submit" value="Send Message">
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2026 Chanda Music Hub</p>
+</footer>
+
+</body>
+</html>
